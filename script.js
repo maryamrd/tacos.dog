@@ -24,23 +24,23 @@ var easy = [
 	["chihuahua.jpg","chihuahua"],
 	["dachshund.jpg","dachshund"],
 	["goldenRetriever.jpg","golden retriever"],
-	["frenchBulldog.jpg","french bulldog"],
-	["easydog1.jpg","easydog1"],
-	["easydog2.jpg","easydog2"],
-	["easydog3.jpg","easydog3"],
-	["easydog4.jpg","easydog4"],
-	["easydog5.jpg","easydog5"],
-	["easydog6.jpg","easydog6"],
-	["easydog7.jpg","easydog7"],
-	["easydog8.jpg","easydog8"],
-	["easydog9.jpg","easydog9"],
-	["easydog10.jpg","easydog10"],
-	["easydog11.jpg","easydog11"],
-	["easydog12.jpg","easydog12"],
-	["easydog13.jpg","easydog13"],
-	["easydog14.jpg","easydog14"],
-	["easydog15.jpg","easydog15"],
-	["easydog16.jpg","easydog16"]
+	["frenchBulldog.jpg","French Bulldog"],
+	["beagle.jpg","Beagle"],
+	["bostonTerrier.jpg","Boston Terrier"],
+	["boxer.jpg","Boxer"],
+	["australianShepherd.jpg","Australian Shepherd"],
+	["americanStaffordshireTerrier.jpg","American Staffordshire Terrier"],
+	["dalmatian.jpg","Dalmatian"],
+	["doberman.jpg","Doberman"],
+	["germanShepherd.jpg","German Shepherd"],
+	["italianGreyhound.jpg","Italian Greyhound"],
+	["labradorRetriever.jpg","Labrador Retriever"],
+	["pomeranian.jpg","Pomeranian"],
+	["poodle.jpg","Poodle"],
+	["pug.jpg","Pug"],
+	["shihTzu.jpg","Shih Tzu"],
+	["siberianHusky.jpg","Siberian Husky"],
+	["yorkie.jpg","Yorkshire Terrier"]
 ];
 
 // MEDIUM
@@ -186,7 +186,8 @@ $(document).ready(function() {
 
 	// Populates screen with image and buttons
 	function populateScreen() {
-		$("#div_dog").html(correctAnswer[0]);
+		var dogName = "assets/dogs/" + correctAnswer[0];
+		$("#div_dog").css("background-image","url(" + dogName + ")");
 		$("#button_1").html(answerArray[0][1]);
 		$("#button_2").html(answerArray[1][1]);
 		$("#button_3").html(answerArray[2][1]);

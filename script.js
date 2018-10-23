@@ -63,9 +63,9 @@ var medium = [
 	["miniatureSchnauzer.jpg","Miniature Schnauzer"],
 	["pekingese.jpg","Pekingese"],
 	["norwichTerrier.jpg","Norwich Terrier"],
-	["meddog14.jpg","meddog14"],
-	["meddog15.jpg","meddog15"],
-	["meddog16.jpg","meddog16"]
+	["brusselsGriffon.jpg","Brussels Griffon"],
+	["ratTerrier.jpg","Rat Terrier"],
+	["havanese.jpg","Havanese"]
 
 ];
 

@@ -21,9 +21,9 @@ var subArray = [];
 // EASY
 var easy = [
 
-	["chihuahua.jpg","chihuahua"],
-	["dachshund.jpg","dachshund"],
-	["goldenRetriever.jpg","golden retriever"],
+	["chihuahua.jpg","Chihuahua"],
+	["dachshund.jpg","Dachshund"],
+	["goldenRetriever.jpg","Golden Retriever"],
 	["frenchBulldog.jpg","French Bulldog"],
 	["beagle.jpg","Beagle"],
 	["bostonTerrier.jpg","Boston Terrier"],
@@ -46,10 +46,10 @@ var easy = [
 // MEDIUM
 var medium = [
 
-	["chowChow.jpg","chow chow"],
-	["maltese.jpg","maltese"],
-	["bullTerrier.jpg","bull terrier"],
-	["papillon.jpg","papillon"],
+	["chowChow.jpg","Chow Chow"],
+	["maltese.jpg","Maltese"],
+	["bullTerrier.jpg","Bull Terrier"],
+	["papillon.jpg","Papillon"],
 	["chineseCrested.jpg","Chinese Crested"],
 	["basenji.jpg","Basenji"],
 	["bichonFrise.jpg","Bichon Frise"],
@@ -72,10 +72,10 @@ var medium = [
 // HARD
 var hard = [
 
-	["saluki.jpg","saluki"],
-	["affenpinscher.jpg","affenpinscher"],
-	["catahoulaLeopardDog.jpg","catahoula leopard dog"],
-	["finnishLapphund.jpg","finnish lapphund"],
+	["saluki.jpg","Saluki"],
+	["affenpinscher.jpg","Affenpinscher"],
+	["catahoulaLeopardDog.jpg","Catahoula Leopard Dog"],
+	["finnishLapphund.jpg","Finnish Lapphund"],
 	["harddog1.jpg","harddog1"],
 	["harddog2.jpg","harddog2"],
 	["harddog3.jpg","harddog3"],
@@ -98,10 +98,10 @@ var hard = [
 // ULTRA
 var ultra = [
 
-	["kuvasz.jpg","kuvasz"],
-	["mudi.jpg","mudi"],
-	["russianToy.jpg","russian toy"],
-	["shikoku.jpg","shikoku"],
+	["kuvasz.jpg","Kuvasz"],
+	["mudi.jpg","Mudi"],
+	["russianToy.jpg","Russian Toy"],
+	["shikoku.jpg","Shikoku"],
 	["ultradog1.jpg","ultradog1"],
 	["ultradog2.jpg","ultradog2"],
 	["ultradog3.jpg","ultradog3"],

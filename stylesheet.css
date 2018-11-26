@@ -350,6 +350,7 @@ button:active {
     padding: 1vw 5vw;
     height: calc(50% - 3vw);
     width: 42%;
+    font-size: 4.7vw;
   }
 
   button:hover {
@@ -358,6 +359,11 @@ button:active {
     padding: 1vw 5vw;
     height: calc(50% - 3vw);
     width: 42%;
+    font-size: 4.7vw;
+  }
+
+  button:active {
+    font-size: 4.7vw;
   }
 
 }

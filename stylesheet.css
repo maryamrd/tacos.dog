@@ -340,7 +340,7 @@ button:active {
 
   #div_buttons {
     width: 100%;
-    height: calc(100vh - 82vw);
+    height: calc(100% - 82vw);
     position: absolute;
     bottom: 3vw;
   }

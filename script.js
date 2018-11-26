@@ -117,7 +117,7 @@ var ultra = [
 	["plott.jpg","Plott"],
 	["skyeTerrier.jpg","Skye Terrier"],
 	["sloughi.jpg","Sloughi"],
-	["viszla.jpg","Viszla"],
+	["vizsla.jpg","Vizsla"],
 	["xoloitzcuintli.jpg","Xoloitzcuintli"]
 
 ];

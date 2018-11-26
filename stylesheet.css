@@ -67,14 +67,14 @@ body {
 
 #div_frame {
   width: 58vh;
-  height: 36.1vh;
+  height: auto;
   display: block;
   margin: 0 auto;
   text-align: center;
   background-image: URL("assets/misc/frame.png");
   background-size: 79%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 3.5vh;
 }
 
 #div_dog {
@@ -89,32 +89,50 @@ body {
 }
 
 .div_sideWrapper {
-  width: 11vh;
-  height: 20vh;
+  width: 10vh;
+  height: auto;
   display: inline-block;
   vertical-align: middle;
 }
 
 .div_bottomWrapper {
   width: 100%;
+  text-align: justify;
+  margin: 0vh 0vh 1vh 0vh;
+}
+
+.div_bottomWrapper:after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+}
+
+#div_middleWrapper {
+  text-align: justify;
+}
+
+#div_middleWrapper:after {
+  content: "";
+  width: 100%;
+  display: inline-block;
 }
 
 #div_side2,
 #div_side3,
 #div_side4 {
-  width: 10.5vh;
+  width: 10vh;
   height: 6vh;
-  margin: 1vh 0vh 0vh 0.15vh;
   opacity: 0;
+  margin: 1vh 0vh 2vh 0vh;
 }
 
 #div_side10,
 #div_side11,
 #div_side12 {
-  width: 10.5vh;
+  width: 10vh;
   height: 6vh;
-  margin: 1vh 0vh 0vh 0.35vh;
   opacity: 0;
+  margin: 1vh 0vh 2vh 0vh;
 }
 
 #div_side5,
@@ -122,9 +140,8 @@ body {
 #div_side7,
 #div_side8,
 #div_side9 {
-  width: 10.5vh;
+  width: 10vh;
   height: 6vh;
-  margin: 0vh 0.2vh 0vh 0.2vh;
   display: inline-block;
   vertical-align: top;
   opacity: 0;
@@ -135,9 +152,8 @@ body {
 #div_side14,
 #div_side15,
 #div_side16 {
-  width: 10.5vh;
+  width: 10vh;
   height: 6vh;
-  margin: 1vh 0.2vh 0vh 0.2vh;
   display: inline-block;
   vertical-align: top;
   opacity: 0;
@@ -170,7 +186,7 @@ body {
 }
 
 #div_buttons {
-  width: 55vh;
+  width: 60vh;
   height: 45vh;
   display: block;
   margin: 1vh auto;
@@ -182,11 +198,11 @@ button {
   outline: none;
   border-radius: 3pt;
   display: inline-block;
-  width: 45%;
-  height: 45%;
+  width: 25vh;
+  height: 20vh;
   border: none;
   padding: 3vh;
-  margin: 2% 2% 3% 2%;
+  margin: 1.2vh 1vh;
   cursor: pointer;
   background-color: #FF93D3;
   box-shadow: 0px 1px 8px 0px #D56BB2;
@@ -199,18 +215,18 @@ button {
 }
 
 button:hover {
-  width: 46%;
-  height: 46%;
-  margin: 1% 1.5% 1% 1.5%;
+  width: 25.6vh;
+  height: 20.6vh;
+  margin: 0.9vh 0.7vh;
   box-shadow: 0px 1px 8px 2px #D56BB2;
   font-size: 3.1vh;
   background-color: #FF9FD8;
 }
 
 button:active {
-  width: 45%;
-  height: 45%;
-  margin: 1% 2% 1% 2%;
+  width: 25vh;
+  height: 20vh;
+  margin: 1.2vh 1vh;
   background-color: #FF92D2;
   font-size: 3vh;
   box-shadow: 0px 1px 5px 0px #D56BB2;
@@ -237,4 +253,111 @@ button:active {
   top: -5%;
   transform: translateY(5%);
   height: 90vh;
+}
+
+@media only screen and (max-width: 28rem) {
+
+  #div_header {
+    width: 100%;
+    height: 10vw;
+    background-color: white;
+    margin-bottom: 3vw;
+    background-color: #FF93D3;
+    box-shadow: 0px 1px 8px 0px #D56BB2;
+  }
+
+  #div_frame {
+    width: 100%;
+    background-size: 75%;
+    background-position: center 3vw;
+    height: 58vw;
+    margin: 0;
+  }
+
+  #div_dog {
+    width: calc(100% - 38vw);
+    margin-left: -0.5vw;
+    height: 33vw;
+  }
+
+  .div_bottomWrapper {
+    width: calc(100% - 1.6rem);
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .div_sideWrapper {
+    width: auto;
+    height: auto;
+    margin: 1vw 0vw 0vw 0vw;
+  }
+
+  #div_middleWrapper {
+    width: calc(100% - 1.6rem);
+    margin: 0 auto;
+  }
+
+  #div_side2,
+  #div_side3,
+  #div_side4 {
+    width: 16vw;
+    height: 9vw;
+    margin: 2vw 0vh 4vw 0vh;
+  }
+
+  #div_side10,
+  #div_side11,
+  #div_side12 {
+    width: 16vw;
+    height: 9vw;
+    margin: 2vw 0vh 4vw 0vh;
+  }
+
+  #div_side5,
+  #div_side6,
+  #div_side7,
+  #div_side8,
+  #div_side9 {
+    width: 16vw;
+    height: 9vw;
+  }
+
+  #div_side1,
+  #div_side13,
+  #div_side14,
+  #div_side15,
+  #div_side16 {
+    width: 16vw;
+    height: 9vw;
+  }
+
+  #div_playfield {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    transform: translateY(0%);
+  }
+
+  #div_buttons {
+    width: 100%;
+    height: calc(100vh - 82vw);
+    position: absolute;
+    bottom: 3vw;
+  }
+
+  button {
+    margin: 1.5vw 1vw;
+    padding: 1vw 5vw;
+    height: calc(50% - 3vw);
+    width: 42%;
+  }
+
+  button:hover {
+    font-size: 3vh;
+    margin: 1.5vw 1vw;
+    padding: 1vw 5vw;
+    height: calc(50% - 3vw);
+    width: 42%;
+  }
+
 }

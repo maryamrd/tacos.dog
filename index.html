@@ -26,7 +26,7 @@
 				font-weight: 400;
 				text-align: center;
 				line-height: 6vh;
-				padding: 5vh 5vh 4vh 5vh;
+				padding: 0vh 5vh 4vh 5vh;
 				font-size: 4.7vh;
 			}
 			#img_papi {
@@ -69,12 +69,68 @@
 			#div_playNow {
 				text-align: center;
 				display: block;
+				background-color: none;
+				width: 80vh;
+				height: 30vh;
+  				margin: 0 auto;
+  				position: absolute;
+  				top: 50%;
+  				left: 50%;
+  				transform: translate(-50%, -50%);
 			}
-			@media only screen and (min-width: 450pt) {
-				h2 {
-					margin-top: 15vh;
-					width: 400pt;
+
+			#div_logo {
+				margin: 2vh;
+			}
+
+			@media only screen and (max-width: 28rem) {
+
+				#div_logo {
+					display: block;
+					height: auto;
+					margin: 1rem auto;
+					width: 12rem;
 				}
+
+				#img_papi {
+					width: 4.5rem;
+					height: 4rem;
+				}
+
+				#div_playNow {
+					width: calc(100% - 2rem);
+					height: auto;
+				}
+
+				h1 {
+					font-size: 1.25rem;
+				}
+
+				h2 {
+					font-size: 1.5rem;
+					line-height: 2rem;
+					margin: 0;
+					padding: 0;
+				}
+
+				#button_playNow {
+					margin-top: 2rem;
+					width: calc(50% - 2rem);
+					height: 4.5rem;
+				}
+
+				#button_playNow:hover {
+					margin-top: 2rem;
+					width: calc(50% - 2rem);
+					height: 4.5rem;
+				}
+
+				.img_taco {
+					margin-top: 1.2rem;
+					width: 20%;
+					height: 11vw;
+				}
+
 			}
 
 		</style>
@@ -84,11 +140,13 @@
 
 		<div id = "container">
 
-			<img id = "img_papi" src = "assets/misc/papi.png">
-			<h1>tacos.dog</h1>
+			<div id = "div_logo">
+				<img id = "img_papi" src = "assets/misc/papi.png">
+				<h1>tacos.dog</h1>
+			</div>
 
-			<h2>Guess the dog breed to collect tacos and feed shelter dogs!</h2>
 			<div id = "div_playNow">
+				<h2>Guess the dog breed to collect tacos and feed shelter dogs!</h2>
 				<img class = "img_taco" src = "assets/misc/taco.png">
 				<a href = "game.html"><button id = "button_playNow">Play Now</button></a>
 				<img class = "img_taco" src = "assets/misc/taco.png">

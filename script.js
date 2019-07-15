@@ -129,6 +129,25 @@ var dogsLevel4Backup = ultra.slice(0);		// Creates backup of array
 
 $(document).ready(function() {
 
+	/* ANIMATE UI */
+	$("#div_frame").css("opacity","1");
+	setTimeout(animateButtons,100);
+	function animateButtons(){
+		$("#div_buttons").css("margin-top","0vh");
+	}
+
+	/* CONTROLS HAMBURGER MENU */
+    $(".div_menuIcon").on("click touchstart", function() {
+        $("#div_menu").slideToggle(150);
+        return false;
+    });
+
+    /* CONTROLS HAMBURGER MENU */
+    $(".div_menuIcon2").on("click touchstart", function() {
+        $("#div_menu").slideToggle(150);
+        return false;
+    });
+
 	////////////////////////////////////////////////////////
 	///// GENERATE QUESTION ///// GENERATE QUESTION ////////
 	////////////////////////////////////////////////////////
@@ -188,7 +207,14 @@ $(document).ready(function() {
 	// Populates screen with image and buttons
 	function populateScreen() {
 		var dogName = "assets/dogs/" + correctAnswer[0];
-		$("#div_dog").css("background-image","url(" + dogName + ")");
+		setTimeout(booger,500);
+		$("#div_dog").css("opacity","0");
+		$("#div_dog").css("background-size","200%");
+		function booger() {
+			$("#div_dog").css("opacity","1");
+			$("#div_dog").css("background-size","100%");
+			$("#div_dog").css("background-image","url(" + dogName + ")");
+		}
 		$("#button_1").html(answerArray[0][1]);
 		$("#button_2").html(answerArray[1][1]);
 		$("#button_3").html(answerArray[2][1]);
@@ -240,78 +266,94 @@ $(document).ready(function() {
 		if (difficultyCount == 1) {
 			superTaco();
 			$("#div_side1").css("opacity","1");
+			$("#div_side1").css("background-size","100% 100%");
 			generateAnswerArray(easy);
 		}
 		if (difficultyCount == 2) {
 			superTaco();
 			$("#div_side2").css("opacity","1");
+			$("#div_side2").css("background-size","100% 100%");
 			generateAnswerArray(easy);
 		}
 		if (difficultyCount == 3) {
 			superTaco();
 			$("#div_side3").css("opacity","1");
+			$("#div_side3").css("background-size","100% 100%");
 			generateAnswerArray(easy);
 		}
 		if (difficultyCount == 4) {
 			superTaco();
 			$("#div_side4").css("opacity","1");
+			$("#div_side4").css("background-size","100% 100%");
 			generateAnswerArray(medium);
 		}
 		if (difficultyCount == 5) {
 			superTaco();
 			$("#div_side5").css("opacity","1");
+			$("#div_side5").css("background-size","100% 100%");
 			generateAnswerArray(medium);
 		}
 		if (difficultyCount == 6) {
 			superTaco();
 			$("#div_side6").css("opacity","1");
+			$("#div_side6").css("background-size","100% 100%");
 			generateAnswerArray(medium);
 		}
 		if (difficultyCount == 7) {
 			superTaco();
 			$("#div_side7").css("opacity","1");
+			$("#div_side7").css("background-size","100% 100%");
 			generateAnswerArray(medium);
 		}
 		if (difficultyCount == 8) {
 			superTaco();
 			$("#div_side8").css("opacity","1");
+			$("#div_side8").css("background-size","100% 100%");
 			generateAnswerArray(hard);
 		}
 		if (difficultyCount == 9) {
 			superTaco();
 			$("#div_side9").css("opacity","1");
+			$("#div_side9").css("background-size","100% 100%");
 			generateAnswerArray(hard);
 		}
 		if (difficultyCount == 10) {
 			superTaco();
 			$("#div_side10").css("opacity","1");
+			$("#div_side10").css("background-size","100% 100%");
 			generateAnswerArray(hard);
 		}
 		if (difficultyCount == 11) {
 			superTaco();
 			$("#div_side11").css("opacity","1");
+			$("#div_side11").css("background-size","100% 100%");
 			generateAnswerArray(hard);
 		}
 		if (difficultyCount == 12) {
 			superTaco();
 			$("#div_side12").css("opacity","1");
+			$("#div_side12").css("background-size","100% 100%");
 			generateAnswerArray(ultra);
 		}
 		if (difficultyCount == 13) {
 			superTaco();
 			$("#div_side13").css("opacity","1");
+			$("#div_side13").css("background-size","100% 100%");
 			generateAnswerArray(ultra);
 		}
 		if (difficultyCount == 14) {
 			$("#div_side14").css("opacity","1");
+			$("#div_side14").css("background-size","100% 100%");
 			generateAnswerArray(ultra);
 		}
 		if (difficultyCount == 15) {
 			$("#div_side15").css("opacity","1");
+			$("#div_side15").css("background-size","100% 100%");
 			generateAnswerArray(ultra);
 		}
 		if (difficultyCount == 16) {
 			$("#div_side16").css("opacity","1");
+			$("#div_side16").css("background-size","100% 100%");
 			setTimeout(timerRight, 1000);
 			function timerRight() {
 				right();
@@ -331,12 +373,18 @@ $(document).ready(function() {
 	}
 
 	function wrong() {
-		$("#div_wrongModal").slideDown(150);
-		$(".p_modalTextSmall").html("The correct answer is " + correctAnswer[1] + ".");
+		setTimeout(wrongSlider,100);
+		function wrongSlider(){
+			$("#div_wrongModal").slideDown(150);
+			$(".p_modalTextSmall").html("The correct answer is " + correctAnswer[1] + ".");
+		}
 	}
 
 	function right() {
-		$("#div_rightModal").slideDown(150);
+		setTimeout(rightSlider,100);
+		function rightSlider(){
+			$("#div_rightModal").slideDown(150);
+		}
 	}
 
 	$("#button_restart").on("click touchleave", function() {

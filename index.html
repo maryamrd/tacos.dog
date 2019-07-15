@@ -2,135 +2,131 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link type="text/css" rel="stylesheet" href="stylesheet.css">
 		<meta name="description" content="Play tacos.dog and save shelter dogs!">
 		<link rel="shortcut icon" href="Assets/favicon.png"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
 		<title>tacos.dog</title>
 		<style>
 
-			#container {
+			html,body {
 				margin: 0;
+				padding: 0;
+				height: 100vh;
+				width: 100vw;
 			}
+
+			input {
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				appearance: none;
+			}
+
+			.container {
+				height: 100%;
+				width: 100%;
+				background-image: URL('assets/misc/background.jpg');
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: bottom;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+			}
+
+			.logo {
+				width: 4vw;
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+			.logoWrapper {
+			  margin: 2.5vw 0vw 1vw 0vw;
+			}
+
+			h1, h2, h3, h4, h5, h6, p, input, button {
+				font-family: 'Roboto', sans-serif;
+			}
+
 			h1 {
-				display: inline-block;
-				vertical-align: middle;
 				color: #ffffff;
-				font-family: Avenir, sans-serif;
-				font-size: 3vh;
-				margin: 0.5vh 0vh 0vh 0.5vh;
+			  	font-size: 2vw;
+			  	font-weight: 900;
+			  	user-select: none;
+			  	cursor: pointer;
+			  	letter-spacing: 0vw;
+			  	display: inline-block;
+			  	vertical-align: middle;
 			}
+
 			h2 {
-				margin: 0 auto;
+				color: #A4FFE8;
+				font-size: 8vw;
+				font-weight: 900;
+				line-height: 7.3vw;
+				margin: 0vw;
+				letter-spacing: -0.4vw;
+			}
+
+			h3 {
 				color: #ffffff;
-				font-family: Avenir, sans-serif;
-				font-weight: 400;
-				text-align: center;
-				line-height: 6vh;
-				padding: 0vh 5vh 4vh 5vh;
-				font-size: 4.7vh;
-			}
-			#img_papi {
-				margin: 1vh 0vh 0vh 1vh;
-				width: 10vh;
-				display: inline-block;
-				vertical-align: middle;
-			}
-			#button_playNow {
-				vertical-align: middle;
-				display: inline-block;
-				width: 23vh;
-				margin: 1vh;
-				height: 10vh;
-			}
-			#button_playNow:hover {
-				vertical-align: middle;
-				display: inline-block;
-				width: 23vh;
-				margin: 1vh;
-				height: 10vh;
-			}
-			#button_playNow:active {
-				vertical-align: middle;
-				display: inline-block;
-				width: 23vh;
-				margin: 1vh;
-				height: 10vh;
-			}
-			.img_taco {
-				display: inline-block;
-				width: 12vh;
-				vertical-align: middle;
-				animation: blinker 1s linear infinite;
-			}
-			@keyframes blinker {
-			  	25% { transform: rotate(10deg); }
-			  	75% { transform: rotate(-10deg); }
-			}
-			#div_playNow {
-				text-align: center;
-				display: block;
-				background-color: none;
-				width: 80vh;
-				height: 30vh;
-  				margin: 0 auto;
-  				position: absolute;
-  				top: 50%;
-  				left: 50%;
-  				transform: translate(-50%, -50%);
+				font-size: 6vw;
+				font-weight: 900;
+				line-height: 6.3vw;
+				margin: 0vw;
+				letter-spacing: -0.3vw;
 			}
 
-			#div_logo {
-				margin: 2vh;
+			.information {
+				padding: 0vw 4vw 4vw 4vw;
 			}
 
-			@media only screen and (max-width: 28rem) {
-
-				#div_logo {
-					display: block;
-					height: auto;
-					margin: 1rem auto;
-					width: 12rem;
+			button {
+				margin-top: 3vw;
+				width: 20vw;
+				height: 8vw;
+				background-color: #A4FFE8;
+				border-radius: 15vw;
+				cursor: pointer;
+				font-size: 2.3vw;
+				font-weight: 900;
+				color: #534C86;
+				border: 0;
+				outline: 0;
+				animation: grow 1s ease infinite;
 				}
 
-				#img_papi {
-					width: 4.5rem;
-					height: 4rem;
-				}
+			button:hover {
+				background-color: #534C86;
+				color: #A4FFE8;
+				transition: all 0.1s;
+				animation: grow 0.5s ease infinite;
+			}
 
-				#div_playNow {
-					width: calc(100% - 2rem);
-					height: auto;
-				}
+			button:active {
+				margin-top: 3vw;
+				margin-left: 0vw;
+				width: 20vw;
+				height: 8vw;
+				font-size: 2.3vw;
+				transition: all 0s;
+				transform: scale(0.95);
+				animation: none;
+				opacity: 0.8;
+			}
 
-				h1 {
-					font-size: 1.25rem;
-				}
+			@keyframes grow {
+				25% { transform: scale(1.05) }
+			}
 
-				h2 {
-					font-size: 1.5rem;
-					line-height: 2rem;
-					margin: 0;
-					padding: 0;
+			@media only screen and (max-width: 50rem) {
+				.information {
+					transform: scale(1.5);
+					transform-origin: 0% 0%;
 				}
-
-				#button_playNow {
-					margin-top: 2rem;
-					width: calc(50% - 2rem);
-					height: 4.5rem;
+				button {
+					margin-top: 4vw;
 				}
-
-				#button_playNow:hover {
-					margin-top: 2rem;
-					width: calc(50% - 2rem);
-					height: 4.5rem;
-				}
-
-				.img_taco {
-					margin-top: 1.2rem;
-					width: 20%;
-					height: 11vw;
-				}
-
 			}
 
 		</style>
@@ -138,18 +134,16 @@
 
 	<body>
 
-		<div id = "container">
+		<div class = "container">
 
-			<div id = "div_logo">
-				<img id = "img_papi" src = "assets/misc/papi.png">
-				<h1>tacos.dog</h1>
-			</div>
-
-			<div id = "div_playNow">
-				<h2>Guess the dog breed to collect tacos and feed shelter dogs!</h2>
-				<img class = "img_taco" src = "assets/misc/taco.png">
-				<a href = "game.html"><button id = "button_playNow">Play Now</button></a>
-				<img class = "img_taco" src = "assets/misc/taco.png">
+			<div class = "information">
+				<div class = "logoWrapper">
+					<img src = "assets/misc/papi2.png" class = "logo">
+					<h1>tacos.dog</h1>
+				</div>
+				<h2>Guess<br>the breed</h2>
+				<h3>to win tacos and<br>feed shelter dogs!</h3>
+				<a href = "game.html"><button>Play now</button></a>
 			</div>
 
 		</div>

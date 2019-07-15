@@ -4,12 +4,33 @@
 		<link type="text/css" rel="stylesheet" href="stylesheet.css">
 		<meta name="description" content="Play tacos.dog and save shelter dogs!">
 		<link rel="shortcut icon" href="Assets/favicon.png"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
 		<title>tacos.dog</title>
 	</head>
 
 	<body>
 
 		<div id = "container">
+
+			<div id = "div_menu">
+				<div class = "div_header">
+					<div class = "div_menuIcon2"></div>
+					<a href = "index.html"><p id = "menuTitle">tacos.dog</p></a>
+				</div>
+				<div id = "div_menu_block">
+					<a href = "game.html"><p class = "p_menu">play</p></a>
+					<a href = "about.html"><p class = "p_menu">about</p></a>
+					<a href = "privacy.html"><p class = "p_menu">privacy</p></a>
+					<a href = "terms.html"><p class = "p_menu">terms</p></a>
+					<a href = "contact.html"><p class = "p_menu">contact</p></a>
+				</div>
+			</div>
+
+			<div class = "div_header">
+				<div class = "div_menuIcon"></div>
+				<a href = "index.html"><h1>tacos.dog</h1></a>
+			</div>
 
 			<div id = "div_wrongModal">
 				<div class = "div_modalContentWrapper">
@@ -33,9 +54,6 @@
 
 			<div id = "div_playfield">
 
-			<div id = "div_header">
-			</div>
-
 				<div id = "div_frame">
 					<div class = "div_bottomWrapper">
 						<div id = "div_side5"></div>
@@ -50,7 +68,10 @@
 							<div id = "div_side3"></div>			
 							<div id = "div_side2"></div>				
 						</div>
-						<div id = "div_dog"></div>
+						<div class = "div_dogWrapper">
+							<div id = "div_dog"></div>
+							<div id = "div_loading"></div>
+						</div>
 						<div class = "div_sideWrapper">
 							<div id = "div_side10"></div>
 							<div id = "div_side11"></div>
@@ -68,10 +89,10 @@
 				</div>
 
 				<div id = "div_buttons">
-					<button id = "button_1"></button>
-					<button id = "button_2"></button>
-					<button id = "button_3"></button>
-					<button id = "button_4"></button>
+					<button id = "button_1" class = "answerButton"></button>
+					<button id = "button_2" class = "answerButton"></button>
+					<button id = "button_3" class = "answerButton"></button>
+					<button id = "button_4" class = "answerButton"></button>
 				</bottom>
 
 			</div>

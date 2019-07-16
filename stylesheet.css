@@ -93,8 +93,9 @@ a {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: calc(100vh - 44px);
+  position: fixed;
+  height: 100%;
+  width: 100%;
 }
 
 .purple {

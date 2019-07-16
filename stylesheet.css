@@ -539,25 +539,24 @@ button:active {
     position: absolute;
   }
 
+  #div_playfield {
+    top: -1%;
+    transform: translateY(-1%);
+  }
+
   button {
-    margin: 1.5vw 1vw;
-    padding: 1vw 5vw;
-    height: calc(50% - 3vw);
-    width: 42%;
-    font-size: 4.7vw;
+    padding: 0.5rem;
+    width: 45%;
+    height: 30%;
+    margin: 0.2rem 0.1rem;
   }
 
   button:hover {
-    font-size: 3vh;
-    margin: 1.5vw 1vw;
-    padding: 1vw 5vw;
-    height: calc(50% - 3vw);
-    width: 42%;
-    font-size: 4.7vw;
+    
   }
 
   button:active {
-    font-size: 4.7vw;
+    
   }
 
   .div_modalContent {

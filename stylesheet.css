@@ -117,8 +117,8 @@ a {
   height: 40vh;
   display: inline-block;
   position: absolute;
-  top: 40%;
-  transform: translateY(-40%);
+  top: 30%;
+  transform: translateY(-30%);
   margin: 0 auto;
 }
 

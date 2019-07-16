@@ -165,11 +165,6 @@ a {
   opacity: 0;
 }
 
-.gameWrapper {
-  width: 100%;
-  height: calc(100% - 44pt);
-}
-
 #div_buttons {
   width: 60vh;
   height: auto;
@@ -313,7 +308,7 @@ button {
   border-radius: 3pt;
   display: inline-block;
   width: 25vh;
-  height: 15vh;
+  height: 16vh;
   border: 0;
   outline: 0;
   padding: 3vh;
@@ -322,7 +317,8 @@ button {
   background-color: #FFBCD0;
   box-shadow: 0pt 2pt 4pt #FE9EBB;
   font-family: Avenir, sans-serif;
-  font-size: 3vh;
+  font-size: 2.5vh;
+  line-height: 3.5vh;
   font-weight: 700;
   color: #ffffff;
   white-space: normal;
@@ -332,20 +328,22 @@ button {
 
 button:hover {
   width: 25.6vh;
-  height: 15.6vh;
+  height: 16.6vh;
   margin: 0.9vh 0.7vh;
   box-shadow: 0pt 2pt 8pt #FE9EBB;
   text-shadow: 0pt 1pt 2pt #FFADC6;
-  font-size: 3.1vh;
+  font-size: 2.6vh;
+  line-height: 3.6vh;
   background-color: #FFCADA;
 }
 
 button:active {
   width: 25vh;
-  height: 15vh;
+  height: 16vh;
   margin: 1.2vh 1vh;
   background-color: #FFBCD0;
-  font-size: 3vh;
+  font-size: 2.5vh;
+  line-height: 3.5vh;
   box-shadow: 0pt 2pt 4pt #FE9EBB;
 }
 
@@ -367,8 +365,8 @@ button:active {
 
 #div_playfield {
   position: relative;
-  top: -1.5%;
-  transform: translateY(-1.5%);
+  top: 30%;
+  transform: translateY(-30%);
   height: 90vh;
 }
 

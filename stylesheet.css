@@ -160,18 +160,23 @@ a {
   background-size: 79.5%;
   background-repeat: no-repeat;
   background-position: 5.9vh 3.2vh;
-  transition: all 0.5s ease;
+  transition: opacity 0.5s ease;
   margin-top: 0vh;
   opacity: 0;
 }
 
+.gameWrapper {
+  width: 100%;
+  height: calc(100% - 44pt);
+}
+
 #div_buttons {
   width: 60vh;
-  height: 45vh;
+  height: auto;
   display: block;
   margin: 1vh auto;
   text-align: center;
-  transition: all 0.25s ease;
+  transition: margin-top 0.25s ease;
   margin-top: 100vh;
 }
 
@@ -308,7 +313,7 @@ button {
   border-radius: 3pt;
   display: inline-block;
   width: 25vh;
-  height: 20vh;
+  height: 15vh;
   border: 0;
   outline: 0;
   padding: 3vh;
@@ -327,7 +332,7 @@ button {
 
 button:hover {
   width: 25.6vh;
-  height: 20.6vh;
+  height: 15.6vh;
   margin: 0.9vh 0.7vh;
   box-shadow: 0pt 2pt 8pt #FE9EBB;
   text-shadow: 0pt 1pt 2pt #FFADC6;
@@ -337,7 +342,7 @@ button:hover {
 
 button:active {
   width: 25vh;
-  height: 20vh;
+  height: 15vh;
   margin: 1.2vh 1vh;
   background-color: #FFBCD0;
   font-size: 3vh;

@@ -129,6 +129,12 @@ var dogsLevel4Backup = ultra.slice(0);		// Creates backup of array
 
 $(document).ready(function() {
 
+	/* WAIT TO MAKE DOG VISIBLE */
+	setTimeout(dogVisible,200);
+	function dogVisible(){
+		$("#div_dog").css("visibility","visible");
+	}
+
 	/* ANIMATE UI */
 	$("#div_frame").css("opacity","1");
 	setTimeout(animateButtons,100);

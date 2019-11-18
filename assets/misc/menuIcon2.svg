@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
-    <title>Combined Shape</title>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 7</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M11.561104,7.65548585 L18.9857252,0.230864646 L22.5212591,3.76639855 L15.0966379,11.1910198 L22.5212591,18.615641 L18.9857252,22.1511749 L11.561104,14.7265537 L4.13648281,22.1511749 L0.600948906,18.615641 L8.02557011,11.1910198 L0.600948906,3.76639855 L4.13648281,0.230864646 L11.561104,7.65548585 Z" id="Combined-Shape" fill="#534D86"></path>
+        <g id="Artboard-Copy-8" transform="translate(-13.000000, -12.000000)" fill="#FEA0BC">
+            <g id="Group-7" transform="translate(13.000000, 12.000000)">
+                <polygon id="Path" transform="translate(7.317429, 7.521908) rotate(-315.000000) translate(-7.317429, -7.521908) " points="-1.15384615 5.76923077 -1.15384615 9.27458617 15.788705 9.27458617 15.788705 5.76923077"></polygon>
+                <polygon id="Path-Copy" transform="translate(7.317429, 7.521908) rotate(-45.000000) translate(-7.317429, -7.521908) " points="-1.15384615 5.76923077 -1.15384615 9.27458617 15.788705 9.27458617 15.788705 5.76923077"></polygon>
+            </g>
+        </g>
     </g>
 </svg>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="324px" height="225px" viewBox="0 0 324 225" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M161.537634,2.49999999 C167.537634,7.83333333 172.42509,10.1666667 176.2,9.49999999 L203.2,3.49999999 L233.2,3.49999999 C245.2,7.49999999 253.533333,9.16666666 258.2,8.49999999 C262.866667,7.83333333 265.866667,5.16666666 267.2,0.499999993 C273.866667,3.16666666 277.2,4.49999999 277.2,4.49999999 C287.2,-0.166666674 295.866667,-0.166666674 303.2,4.49999999 C310.533333,1.16666666 316.2,1.16666666 320.2,4.49999999 C327.2,14.5 316.2,22.5 316.2,22.5 C324.866667,30.5 325.783333,39.5 318.95,49.5 C320.45,51.5 321.533333,52.8333333 322.2,53.5 C322.866667,54.1666667 322.866667,55.1666667 322.2,56.5 C318.2,66.5 316.2,71.5 316.2,71.5 C323.456214,86.0124278 323.206163,99.5457777 315.449847,112.100049 L315.468817,112.1 C323.468817,124.766667 323.802151,138.433333 316.468817,153.1 C316.468817,153.1 318.468817,158.1 322.468817,168.1 C323.135484,169.433333 323.135484,170.433333 322.468817,171.1 C321.802151,171.766667 320.718817,173.1 319.218817,175.1 C326.052151,185.1 325.135484,194.1 316.468817,202.1 C316.468817,202.1 327.468817,210.1 320.468817,220.1 C316.468817,223.433333 310.802151,223.433333 303.468817,220.1 C296.135484,224.766667 287.468817,224.766667 277.468817,220.1 C277.468817,220.1 274.135484,221.433333 267.468817,224.1 C266.135484,219.433333 263.135484,216.766667 258.468817,216.1 C253.802151,215.433333 245.468817,217.1 233.468817,221.1 L203.468817,221.1 L176.468817,215.1 C172.335484,214.433333 167.268817,216.766667 161.268817,222.1 C155.268817,216.766667 150.602151,214.433333 147.268817,215.1 L120.268817,221.1 L90.2688172,221.1 C78.2688172,217.1 69.9354839,215.433333 65.2688172,216.1 C60.6021505,216.766667 57.6021505,219.433333 56.2688172,224.1 C49.6021505,221.433333 46.2688172,220.1 46.2688172,220.1 C36.2688172,224.766667 27.6021505,224.766667 20.2688172,220.1 C12.9354839,223.433333 7.2688172,223.433333 3.2688172,220.1 C-3.7311828,210.1 7.2688172,202.1 7.2688172,202.1 C-1.39784946,194.1 -2.31451613,185.1 4.5188172,175.1 C3.0188172,173.1 1.93548387,171.766667 1.2688172,171.1 C0.602150538,170.433333 0.602150538,169.433333 1.2688172,168.1 C5.2688172,158.1 7.2688172,153.1 7.2688172,153.1 C-0.064516129,138.433333 0.268817204,124.766667 8.2688172,112.1 L8.28775667,112.1 C0.53147077,99.5457421 0.281430016,86.0124088 7.53763441,71.5 C7.53763441,71.5 5.53763441,66.5 1.53763441,56.5 C0.870967742,55.1666667 0.870967742,54.1666667 1.53763441,53.5 C2.20430108,52.8333333 3.28763441,51.5 4.78763441,49.5 C-2.04569892,39.5 -1.12903226,30.5 7.53763441,22.5 C7.53763441,22.5 -3.46236559,14.5 3.53763441,4.49999999 C7.53763441,1.16666666 13.2043011,1.16666666 20.5376344,4.49999999 C27.8709677,-0.166666674 36.5376344,-0.166666674 46.5376344,4.49999999 C46.5376344,4.49999999 49.8709677,3.16666666 56.5376344,0.499999993 C57.8709677,5.16666666 60.8709677,7.83333333 65.5376344,8.49999999 C70.2043011,9.16666666 78.5376344,7.49999999 90.5376344,3.49999999 L120.537634,3.49999999 L147.537634,9.49999999 C150.870968,10.1666667 155.537634,7.83333333 161.537634,2.49999999 Z M43,41 L43,181 L279,181 L279,41 L43,41 Z" id="path-1"></path>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFB9D7" offset="0%"></stop>
+            <stop stop-color="#FF83AE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFB9D7" offset="0%"></stop>
+            <stop stop-color="#FF83AE" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-5" x="0.399999991" y="0.199999988" width="235" height="140"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <g id="Path-2">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FEB6CC" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="Path-3" mask="url(#mask-2)">
+                    <g transform="translate(-11.000000, -9.000000)">
+                        <g id="Group-5" transform="translate(54.000000, 187.000000)">
+                            <polygon id="Path-11" fill="#FF8BB3" fill-rule="nonzero" points="237.3 5.1 145.3 50.1 133.3 39.1 119.3 5.1 233.3 0.100000001"></polygon>
+                            <polygon id="Path-11" fill="#FF8BB3" fill-rule="nonzero" transform="translate(59.000000, 25.000000) scale(-1, 1) translate(-59.000000, -25.000000) " points="118 5 26 50 14 39 -1.49011612e-08 5 114 0"></polygon>
+                            <polygon id="Path-13" fill="#FF8BB3" fill-rule="nonzero" points="78 43 119 4 105 40"></polygon>
+                            <polygon id="Path-13" fill="#FF8BB3" fill-rule="nonzero" transform="translate(139.500000, 23.500000) scale(-1, 1) translate(-139.500000, -23.500000) " points="119 43 160 4 146 40"></polygon>
+                            <polygon id="Path-12" fill="#FF9DBF" fill-rule="nonzero" points="118.3 46 118.3 2 134.3 41"></polygon>
+                            <polygon id="Path-12-Copy" fill="#FF83AE" fill-rule="nonzero" transform="translate(111.000000, 24.000000) scale(-1, 1) translate(-111.000000, -24.000000) " points="103 46 103 2 119 41"></polygon>
+                            <polygon id="Path-14" fill="#FF9DBF" fill-rule="nonzero" points="0.300000004 5 75 26 118.537634 5 84 46.1"></polygon>
+                            <polygon id="Path-14" fill="#FF9DBF" fill-rule="nonzero" transform="translate(178.650000, 25.550000) scale(-1, 1) translate(-178.650000, -25.550000) " points="120.3 5 193.462366 26 237 5 203.9 46.1"></polygon>
+                        </g>
+                        <g id="Group-5-Copy" transform="translate(173.000000, 29.900000) scale(1, -1) translate(-173.000000, -29.900000) translate(54.000000, 4.400000)">
+                            <polygon id="Path-11" fill="#FFD1DE" fill-rule="nonzero" points="237.3 5.1 145.3 50.1 133.3 39.1 119.3 5.1 233.3 0.100000001"></polygon>
+                            <polygon id="Path-11" fill="#FFD1DE" fill-rule="nonzero" transform="translate(59.000000, 25.000000) scale(-1, 1) translate(-59.000000, -25.000000) " points="118 5 26 50 14 39 -1.49011612e-08 5 114 0"></polygon>
+                            <polygon id="Path-13" fill="#FFF2F6" fill-rule="nonzero" points="78 43 119 4 105 40"></polygon>
+                            <polygon id="Path-13" fill="#FFF2F6" fill-rule="nonzero" transform="translate(139.500000, 23.500000) scale(-1, 1) translate(-139.500000, -23.500000) " points="119 43 160 4 146 40"></polygon>
+                            <polygon id="Path-12" fill="#FFFFFF" fill-rule="nonzero" points="118.3 46 118.3 2 134.3 41"></polygon>
+                            <polygon id="Path-12-Copy" fill="#FFE3EB" fill-rule="nonzero" transform="translate(111.000000, 24.000000) scale(-1, 1) translate(-111.000000, -24.000000) " points="103 46 103 2 119 41"></polygon>
+                            <polygon id="Path-14" fill="#FFE3EB" fill-rule="nonzero" points="0.300000004 5 75 26 118.537634 5 84 46.1"></polygon>
+                            <polygon id="Path-14" fill="#FFE3EB" fill-rule="nonzero" transform="translate(178.650000, 25.550000) scale(-1, 1) translate(-178.650000, -25.550000) " points="120.3 5 193.462366 26 237 5 203.9 46.1"></polygon>
+                        </g>
+                        <g id="Group-4" transform="translate(0.000000, 121.000000)">
+                            <path d="M9,95 L54,71 L29,112 L12,113 C8.66666667,107 7,103.666667 7,103 C7,102.333333 7.66666667,99.3333333 9,94 L9,95 Z" id="Path-2" fill="#FF83AE" fill-rule="nonzero"></path>
+                            <polygon id="Path-4" fill="#FF8BB3" fill-rule="nonzero" opacity="0.752627418" points="15 63 54 71 15 92 3 80"></polygon>
+                            <polygon id="Path-5" fill="#FF8BB3" fill-rule="nonzero" opacity="0.788388207" points="54 71 58 116 30 115 25 118"></polygon>
+                            <polygon id="Path-6" fill="#FF9DBF" fill-rule="nonzero" points="54 71 6 31 9 60 10 62"></polygon>
+                            <polygon id="Path-7" fill="#FF83AE" fill-rule="nonzero" points="54 71 70 120 58 118"></polygon>
+                            <polygon id="Path-8" fill="#FFABC4" fill-rule="nonzero" points="54 71 19 0 10 7 11 31 -2.13162821e-14 26"></polygon>
+                            <polygon id="Path-9" fill="#FF8BB3" fill-rule="nonzero" opacity="0.744094122" points="54 71 104 111 70 121"></polygon>
+                            <polygon id="Path-10" fill="#FF8BB3" fill-rule="nonzero" points="54 71 138 112 115 120"></polygon>
+                        </g>
+                        <g id="Group-4-Copy" transform="translate(69.300000, 61.100000) scale(1, -1) translate(-69.300000, -61.100000) translate(0.300000, 0.600000)">
+                            <path d="M9,95 L54,71 L29,112 L12,113 C8.66666667,107 7,103.666667 7,103 C7,102.333333 7.66666667,99.3333333 9,94 L9,95 Z" id="Path-2" fill="#FFE3EB" fill-rule="nonzero"></path>
+                            <polygon id="Path-4" fill="#FFD1DE" fill-rule="nonzero" points="15 63 54 71 15 92 3 80"></polygon>
+                            <polygon id="Path-5" fill="#FFF2F6" fill-rule="nonzero" points="54 71 58 116 30 115 25 118"></polygon>
+                            <polygon id="Path-6" fill="#FFFFFF" fill-rule="nonzero" opacity="0.25281343" points="54 71 6 31 9 60 10 62"></polygon>
+                            <polygon id="Path-7" fill="#FFE3EB" fill-rule="nonzero" points="54 71 70 120 58 118"></polygon>
+                            <polygon id="Path-8" fill="#FFFFFF" fill-rule="nonzero" opacity="0.152087984" points="54 71 19 0 10 7 11 31 -2.13162821e-14 26"></polygon>
+                            <polygon id="Path-9" fill="#FFFFFF" fill-rule="nonzero" points="54 71 104 111 70 121"></polygon>
+                            <polygon id="Path-10" fill="#FFF2F6" fill-rule="nonzero" points="54 71 138 112 115 120"></polygon>
+                        </g>
+                        <g id="Group-4-Copy-3" transform="translate(276.400000, 181.500000) scale(-1, 1) translate(-276.400000, -181.500000) translate(207.400000, 121.000000)">
+                            <path d="M9,95 L54,71 L29,112 L12,113 C8.66666667,107 7,103.666667 7,103 C7,102.333333 7.66666667,99.3333333 9,94 L9,95 Z" id="Path-2" fill="#FFABC4" fill-rule="nonzero"></path>
+                            <polygon id="Path-4" fill="#FFFFFF" fill-rule="nonzero" opacity="0.151994978" points="15 63 54 71 15 92 3 80"></polygon>
+                            <polygon id="Path-5" fill="#FF9DBF" fill-rule="nonzero" points="54 71 58 116 30 115 25 118"></polygon>
+                            <polygon id="Path-6" fill="#FFFFFF" fill-rule="nonzero" opacity="0.248023624" points="54 71 6 31 9 60 10 62"></polygon>
+                            <polygon id="Path-7" fill="#FE95B9" fill-rule="nonzero" points="54 71 70 120 58 118"></polygon>
+                            <polygon id="Path-8" fill="#FFD1DE" fill-rule="nonzero" points="54 71 19 0 10 7 11 31 -2.13162821e-14 26"></polygon>
+                            <polygon id="Path-9" fill="#FF8BB3" fill-rule="nonzero" opacity="0.497628348" points="54 71 104 111 70 121"></polygon>
+                            <polygon id="Path-10" fill="#FF8BB3" fill-rule="nonzero" opacity="0.748418899" points="54 71 138 112 115 120"></polygon>
+                        </g>
+                        <g id="Group-4-Copy-2" transform="translate(276.700000, 61.100000) scale(-1, -1) translate(-276.700000, -61.100000) translate(207.700000, 0.600000)">
+                            <path d="M9,95 L54,71 L29,112 L12,113 C8.66666667,107 7,103.666667 7,103 C7,102.333333 7.66666667,99.3333333 9,94 L9,95 Z" id="Path-2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                            <polygon id="Path-4" fill="#FFF2F6" fill-rule="nonzero" points="15 63 54 71 15 92 3 80"></polygon>
+                            <polygon id="Path-5" fill="#FFF2F6" fill-rule="nonzero" points="54 71 58 116 30 115 25 118"></polygon>
+                            <polygon id="Path-6" fill="#FFE3EB" fill-rule="nonzero" points="54 71 6 31 9 60 10 62"></polygon>
+                            <polygon id="Path-7" fill="#FFFFFF" fill-rule="nonzero" points="54 71 70 120 58 118"></polygon>
+                            <polygon id="Path-8" fill="#FFD1DE" fill-rule="nonzero" points="54 71 19 0 10 7 11 31 -2.13162821e-14 26"></polygon>
+                            <polygon id="Path-9" fill="#FFE3EB" fill-rule="nonzero" points="54 71 104 111 70 121"></polygon>
+                            <polygon id="Path-10" fill="#FFD1DE" fill-rule="nonzero" points="54 71 138 112 115 120"></polygon>
+                        </g>
+                        <g id="Group-6" transform="translate(19.000000, 91.000000)">
+                            <polygon id="Path-15" fill="#FFD1DE" fill-rule="nonzero" points="0.300000004 30.6 36.3 0.600000009 36.3 30.6"></polygon>
+                            <polygon id="Path-15-Copy" fill="#FFABC4" fill-rule="nonzero" transform="translate(18.000000, 45.800000) scale(1, -1) translate(-18.000000, -45.800000) " points="-3.19744231e-14 61 35 30.6 36 61"></polygon>
+                        </g>
+                        <g id="Group-6-Copy" transform="translate(308.300000, 120.800000) scale(-1, 1) translate(-308.300000, -120.800000) translate(289.800000, 90.300000)">
+                            <polygon id="Path-15" fill="#FFD1DE" fill-rule="nonzero" points="0.300000004 30.6 36.3 0.600000009 36.3 30.6"></polygon>
+                            <polygon id="Path-15-Copy" fill="#FFABC4" fill-rule="nonzero" transform="translate(18.000000, 45.800000) scale(1, -1) translate(-18.000000, -45.800000) " points="-3.19744231e-14 61 35 30.6 36 61"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="chihuahua" transform="translate(44.000000, 42.000000)">
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <rect stroke="url(#linearGradient-4)" stroke-width="2" x="-0.600000009" y="-0.800000012" width="237" height="142"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

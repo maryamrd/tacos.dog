@@ -130,7 +130,7 @@ var dogsLevel4Backup = ultra.slice(0);		// Creates backup of array
 $(document).ready(function() {
 
 	/* WAIT TO MAKE DOG VISIBLE */
-	setTimeout(dogVisible,200);
+	setTimeout(dogVisible,0);
 	function dogVisible(){
 		$("#div_dog").css("visibility","visible");
 	}
@@ -139,18 +139,35 @@ $(document).ready(function() {
 	$("#div_frame").css("opacity","1");
 	setTimeout(animateButtons,100);
 	function animateButtons(){
-		$("#div_buttons").css("margin-top","0vh");
+		if ($(window).width() < 420) {
+		   $("#div_buttons").css("margin-top","1rem");
+		}
+		else {
+			$("#div_buttons").css("margin-top","0rem");
+		}
+		$("#div_buttons").css("opacity","1");
+		$(".div_header").css("opacity",1);
 	}
+
+	$(window).on('resize', function(){
+	      var win = $(this); //this = window
+	      if (win.width() <= 420) {
+	      	$("#div_buttons").css("margin-top","1rem");
+	      }
+	      else {
+	      	$("#div_buttons").css("margin-top","0rem");
+	      }
+	});
 
 	/* CONTROLS HAMBURGER MENU */
     $(".div_menuIcon").on("click touchstart", function() {
-        $("#div_menu").slideToggle(150);
+        $("#div_menu").fadeIn(200);
         return false;
     });
 
     /* CONTROLS HAMBURGER MENU */
     $(".div_menuIcon2").on("click touchstart", function() {
-        $("#div_menu").slideToggle(150);
+        $("#div_menu").fadeOut(200);
         return false;
     });
 
@@ -218,7 +235,7 @@ $(document).ready(function() {
 		$("#div_dog").css("background-size","200%");
 		function booger() {
 			$("#div_dog").css("opacity","1");
-			$("#div_dog").css("background-size","100%");
+			$("#div_dog").css("background-size","110%");
 			$("#div_dog").css("background-image","url(" + dogName + ")");
 		}
 		$("#button_1").html(answerArray[0][1]);
@@ -264,7 +281,27 @@ $(document).ready(function() {
 		}
 	});
 
+	function goodJob(){
+		if ($(window).width() > 420) {
+			$("#right").css("width","5rem");
+		}
+		else {
+			$("#right").css("width","4rem");
+		}
+		$("#right").css("visibility","visible");
+		$("#right").fadeOut(600);
+		setTimeout(resetIt,700);
+	}
+
+	function resetIt(){
+		$("#right").fadeIn(0);
+		$("#right").css("visibility","hidden");
+		$("#right").css("width","3rem");
+	}
+
 	function evaluate() {
+
+		goodJob();
 
 		answerArray = [];
 		difficultyCount = difficultyCount + 1;
@@ -295,6 +332,7 @@ $(document).ready(function() {
 		}
 		if (difficultyCount == 5) {
 			superTaco();
+			$("#level").attr("src","assets/misc/level_medium.svg");
 			$("#div_side5").css("opacity","1");
 			$("#div_side5").css("background-size","100% 100%");
 			generateAnswerArray(medium);
@@ -319,6 +357,7 @@ $(document).ready(function() {
 		}
 		if (difficultyCount == 9) {
 			superTaco();
+			$("#level").attr("src","assets/misc/level_hard.svg");
 			$("#div_side9").css("opacity","1");
 			$("#div_side9").css("background-size","100% 100%");
 			generateAnswerArray(hard);
@@ -343,6 +382,7 @@ $(document).ready(function() {
 		}
 		if (difficultyCount == 13) {
 			superTaco();
+			$("#level").attr("src","assets/misc/level_ultra.svg");
 			$("#div_side13").css("opacity","1");
 			$("#div_side13").css("background-size","100% 100%");
 			generateAnswerArray(ultra);
@@ -381,7 +421,8 @@ $(document).ready(function() {
 	function wrong() {
 		setTimeout(wrongSlider,100);
 		function wrongSlider(){
-			$("#div_wrongModal").slideDown(150);
+			$("#div_wrongModal").slideDown(200);
+			$("#div_wrongModal").css("opacity",1);
 			$(".p_modalTextSmall").html("The correct answer is " + correctAnswer[1] + ".");
 		}
 	}
@@ -389,7 +430,8 @@ $(document).ready(function() {
 	function right() {
 		setTimeout(rightSlider,100);
 		function rightSlider(){
-			$("#div_rightModal").slideDown(150);
+			$("#div_rightModal").slideDown(200);
+			$("#div_rightModal").css("opacity",1);
 		}
 	}
 

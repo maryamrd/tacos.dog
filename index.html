@@ -17,6 +17,10 @@
 				width: 100vw;
 			}
 
+			body {
+				background-image: linear-gradient(to top right, #FE9EBB, #FFC3D5);
+			}
+
 			input {
 				-webkit-appearance: none;
 				-moz-appearance: none;
@@ -26,66 +30,126 @@
 			.container {
 				height: 100%;
 				width: 100%;
-				background-image: URL('assets/misc/background.jpg');
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-position: bottom;
 				margin: 0;
 				padding: 0;
 				overflow: hidden;
-				position: fixed;
-			}
-
-			.logo {
-				width: 3rem;
-				margin: 0 0.5rem 0 0;
-				display: inline-block;
-				vertical-align: middle;
-			}
-
-			.logoWrapper {
-			  margin: 2.5vw 0vw 1vw 0vw;
 			}
 
 			h1, h2, h3, h4, h5, h6, p, input, button {
 				font-family: 'Roboto', sans-serif;
 			}
 
-			h1 {
-				color: #ffffff;
-			  	font-size: 1.5rem;
-			  	font-weight: 900;
-			  	user-select: none;
-			  	cursor: pointer;
-			  	letter-spacing: 0rem;
-			  	display: inline-block;
-			  	vertical-align: middle;
+			h1,
+			#menuTitle {
+			  margin: 1rem 0 0 0;
+			  color: #ffffff;
+			  font-size: 1.5rem;
+			  display: inline-block;
+			  vertical-align: top;
+			  font-weight: 900;
+			  user-select: none;
+			  cursor: pointer;
+			  letter-spacing: 0rem;
+			}
+
+			a {
+			  text-decoration: none;
+			}
+
+			#menuTitle {
+			  color: #FEA0BC;
+			}
+
+			#div_menu {
+			  width: 100%;
+			  height: 100%;
+			  position: absolute;
+			  z-index: 10;
+			  background-color: #ffffff;
+			  display: none;
+			  overflow: hidden;
+			}
+
+			.div_menuIcon,
+			.div_menuIcon2 {
+			  margin: .7rem 0.5rem .7rem .7rem;
+			  width: 2.3rem;
+			  height: 2.3rem;
+			  display: inline-block;
+			  vertical-align: top;
+			  cursor: pointer;
+			  background-image: URL("assets/misc/papi2.png");
+			  background-size: 100%;
+			  background-repeat: no-repeat;
+			}
+
+			.div_menuIcon2 {
+			  background-image: URL("assets/misc/menuIcon2.svg");
+			  width: 1.7rem;
+  			  height: 1.7rem;
+  			  margin: 1rem 0.8rem 1rem 1rem;
+			}
+
+			.div_header {
+			  width: 100%;
+			  height: 2.5rem
+			  opacity: 1;
+			  transition: opacity 0.5s ease;
+			}
+
+			#div_menu_block {
+			  width: 100%;
+			  margin: 2.1rem auto 0 auto;
+			  height: 100%;
+			}
+
+			.p_menu {
+			  text-align: center;
+			  font-size: 2.5rem;
+			  color: #FEA0BC;
+			  font-weight: 900;
+			  line-height: 5rem;
+			  max-width: 12rem;
+			  margin: 0 auto;
+			}
+
+			.p_menu:hover {
+			  font-size: 2.7rem;
+			  color: #FEA0BC;
+			  cursor: pointer;
+			  user-select: none;
+			  background-color: #A4FFE8;
 			}
 
 			h2 {
 				color: #A4FFE8;
-				font-size: 5rem;
+				font-size: 15vh;
 				font-weight: 900;
-				line-height: 4.5rem;
-				margin: 0rem;
-				letter-spacing: -0.2rem;
+				line-height: 13vh;
+				margin: 0;
+				letter-spacing: 0;
+				text-align: center;
 			}
 
 			h3 {
 				color: #ffffff;
-				font-size: 4rem;
+				font-size: 12vh;
 				font-weight: 900;
-				line-height: 4rem;
-				margin: 0rem;
-				letter-spacing: -0.2rem;
+				line-height: 11vh;
+				margin: 0;
+				letter-spacing: -0.1rem;
+				text-align: center;
 			}
 
 			.information {
-				padding: 0vw 4vw 4vw 4vw;
+				margin-top: 5vh;
+				opacity: 1;
+				transition: opacity 0.5s ease;
 			}
 
 			button {
-				margin-top: 2rem;
+				margin: 2rem auto;
+				display: block;
 				width: 14rem;
 				height: 5rem;
 				background-color: #A4FFE8;
@@ -97,12 +161,12 @@
 				border: 0;
 				outline: 0;
 				animation: grow 1s ease infinite;
+				transition: all 0.5s ease;
 			}
 
 			button:hover {
 				background-color: #534C86;
 				color: #A4FFE8;
-				transition: all 0.1s;
 				animation: grow 0.5s ease infinite;
 			}
 
@@ -125,15 +189,26 @@
 				25% { transform: scale(1.05) }
 			}
 
-			@media only screen and (max-width: 35rem) {
+			#dog_footage {
+				width: 100%;
+				height: 100%;
+				background-image: URL('assets/misc/background.jpg');
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: bottom;
+				position: absolute;
+				top: 0;
+				z-index: -10;
+				opacity: 1;
+				transition: opacity 0.5s ease;
+			}
+
+			@media only screen and (max-width: 45rem) {
 				.logoWrapper {
 					margin-top: 1rem;
 				}
 				.logo {
 					width: 2.5rem;
-				}
-				h1 {
-					font-size: 1.3rem;
 				}
 				h2 {
 					font-size: 4.5rem;
@@ -142,6 +217,34 @@
 				h3 {
 					font-size: 3rem;
 					line-height: 3rem;
+				}
+			}
+
+			@media only screen and (max-width: 28rem) {
+				h1,
+			  	#menuTitle {
+			    	margin: 0.45rem 0 0 0;
+			  	}
+
+			  	h2 {
+			  		font-size: 3.5rem;
+			  		line-height: 3rem;
+			  		letter-spacing: -0.1rem;
+			  		margin: 1rem;
+			  	}
+
+			  	h3 {
+			  		font-size: 2.5rem;
+			  		line-height: 2.5rem;
+			  		letter-spacing: -0.1rem;
+			  		margin: 1rem;
+			  	}
+
+			  	.div_menuIcon,
+				.div_menuIcon2 {
+				  width: 1.3rem;
+				  height: 1.3rem;
+				  margin: 0.7rem 0.5rem 0.7rem 0.7rem;
 				}
 			}
 
@@ -154,17 +257,67 @@
 
 		<div class = "container">
 
-			<div class = "information">
-				<div class = "logoWrapper">
-					<img src = "assets/misc/papi2.png" class = "logo">
-					<h1>tacos.dog</h1>
+			<div id = "div_menu">
+				<div class = "div_header">
+					<div class = "div_menuIcon2"></div>
+					<a href = "index.html"><p id = "menuTitle">tacos.dog</p></a>
 				</div>
-				<h2>Guess<br>the breed</h2>
-				<h3>to win tacos and<br>feed shelter dogs!</h3>
-				<a href = "game.html"><button>Play now</button></a>
+				<div id = "div_menu_block">
+					<a href = "game.html"><p class = "p_menu">Play</p></a>
+					<a href = "about.html"><p class = "p_menu">About</p></a>
+					<a href = "privacy.html"><p class = "p_menu">Privacy</p></a>
+					<a href = "terms.html"><p class = "p_menu">Terms</p></a>
+				</div>
 			</div>
 
+			<div class = "div_header">
+				<div class = "div_menuIcon"></div>
+				<a href = "index.html"><h1>tacos.dog</h1></a>
+			</div>
+
+			<div class = "information">
+				<h2>Guess<br>the breed</h2>
+				<h3>to win tacos and<br>feed shelter dogs!</h3>
+				<button>Play now</button>
+			</div>
+
+			<div id = "dog_footage"></div>
+
 		</div>
+
+
+
+		<!-- Javascript references -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+		<script>
+			/* CONTROLS HAMBURGER MENU */
+		    $(".div_menuIcon").on("click touchstart", function() {
+		        $("#div_menu").fadeIn(200);
+		        return false;
+		    });
+
+		    /* CONTROLS HAMBURGER MENU */
+		    $(".div_menuIcon2").on("click touchstart", function() {
+		        $("#div_menu").fadeOut(200);
+		        return false;
+		    });
+
+		    $("button").on("click touchstart", function(){
+		    	$(".div_header").css("opacity",0);
+		    	$("#dog_footage").css("opacity",0);
+		    	$(".information").css("opacity",0);
+		    	$("button").css("animation","none");
+		    	$("button").css("margin-top","40vh");
+		    	$("button").css("opacity",0);
+		    	setTimeout(playGame,500)
+		    });
+
+		    function playGame(){
+		    	window.location.href = 'game.html';
+		    }
+
+		</script>
 
 	</body>
 
